@@ -13,31 +13,31 @@ class SideNavigation extends Component {
                     <img alt="MDB React Logo" className="img-fluid" src={logo}/>
                 </a>
                 <ListGroup className="list-group-flush">
-                    <NavLink exact={true} to="/" activeClassName="activeClass">
+                    <NavLink exact={true} to="/home/" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="pie-chart" className="mr-3"/>
                             Dashboard
                         </ListGroupItem>
                     </NavLink>
-                    <NavLink to="/profile" activeClassName="activeClass">
+                    <NavLink to="/home/profile" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="user" className="mr-3"/>
                             Profile
                         </ListGroupItem>
                     </NavLink>
-                    <NavLink to="/tables" activeClassName="activeClass">
+                    <NavLink to="/home/tables" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="table" className="mr-3"/>
                             Tables
                         </ListGroupItem>
                     </NavLink>
-                    <NavLink to="/maps" activeClassName="activeClass">
+                    <NavLink to="/home/maps" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="map" className="mr-3"/>
                             Maps
                         </ListGroupItem>
                     </NavLink>
-                    <NavLink to="/404" activeClassName="activeClass">
+                    <NavLink to="/home/404" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="exclamation" className="mr-3"/>
                             404
