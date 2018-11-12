@@ -5,6 +5,7 @@ import SideNavigation from "./components/sideNavigation";
 import Footer from "./components/Footer";
 import "./index.css";
 import ProductPage from '../src/components/pages/ProductPage'
+import DataPage from '../src/components/pages/DataPage'
 import HomePage from '../src/components/HomePage'
 import { Route, Switch } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="flexible-content">
         <Switch>
           <Route path="/product" component={ProductPage}></Route>
+          <Route path="/data" component={DataPage}/>
           <Route path="/home" component={HomePage}/>
         </Switch>
         {/* <TopNavigation />

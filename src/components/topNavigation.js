@@ -126,8 +126,9 @@ class TopNavigation extends Component {
                   Joe Doe
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="#">Sign Out</DropdownItem>
-                  <DropdownItem href="#">Profile</DropdownItem>
+                  <DropdownItem href="/data">Data</DropdownItem>
+                  <DropdownItem href="/home/dashboard">Dashboard</DropdownItem>
+                  <DropdownItem href="/product">Sign Out</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
             </NavItem>
