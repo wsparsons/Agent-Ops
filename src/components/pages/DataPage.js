@@ -101,7 +101,7 @@ class DataPage extends Component {
           </Collapse>
         </Navbar>
         <Row className="d-flex justify-content-around p-5">
-          <Col lg="4" className="p-3">
+          <Col lg="4" className="p-3 animated fadeInLeft">
             <Row className="d-flex justify-content-center mt-5">
               <Fa icon="check-circle blue-text" size="5x" />
             </Row>
@@ -131,7 +131,7 @@ class DataPage extends Component {
             </Row>
           </Col>
           <Col lg="5">
-            <Card className="mt-4">
+            <Card className="mt-4 animated zoomIn">
               <Row>
                 <Col>
                   <CardBody className="form">
@@ -179,7 +179,7 @@ class DataPage extends Component {
                     </Row>
                     <Row>
                       <Col className="d-flex justify-content-center">
-                        <a href="/home/tables">
+                        <a href="/home">
                           <Fa icon="plus-circle blue-text" size="2x" />
                         </a>
                       </Col>
@@ -188,7 +188,7 @@ class DataPage extends Component {
                 </Col>
               </Row>
             </Card>
-            <Card className="mt-4">
+            <Card className="mt-4 animated zoomIn">
               <Row>
                 <Col>
                   <CardBody className="form">
@@ -236,7 +236,7 @@ class DataPage extends Component {
                     </Row>
                     <Row>
                       <Col className="d-flex justify-content-center">
-                        <a href="/home/tables">
+                        <a href="/home">
                           <Fa icon="plus-circle blue-text" size="2x" />
                         </a>
                       </Col>

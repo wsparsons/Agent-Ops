@@ -25,7 +25,7 @@ class ProductPage extends Component {
             <section>
               <Row className="d-flex justify-content-center">
                 <Col md="3" lg="6" className="mb-1">
-                  <Card className="d-flex mb-3 example hoverable z-depth-5">
+                  <Card className="d-flex mb-3 example hoverable z-depth-5 animated zoomIn">
                     <CardBody>
                       <CardTitle>Realtor.com</CardTitle>
                       <CardText>Lorem ipsum dolor sit amet.</CardText>
@@ -46,7 +46,7 @@ class ProductPage extends Component {
                   </Card>
                 </Col>
                 <Col md="3" lg="6" className="mb-1">
-                  <Card className="d-flex mb-3 example hoverable z-depth-5">
+                  <Card className="d-flex mb-3 example hoverable z-depth-5 animated zoomIn">
                     <CardBody>
                       <CardTitle>Zillow</CardTitle>
                       <CardText>Lorem ipsum dolor sit amet.</CardText>
@@ -69,7 +69,7 @@ class ProductPage extends Component {
               </Row>
               <Row className="d-flex justify-content-center">
                 <Col md="3" lg="6" className="mb-1">
-                  <Card className="d-flex mb-3 example hoverable z-depth-5">
+                  <Card className="d-flex mb-3 example hoverable z-depth-5 animated zoomIn">
                     <CardBody>
                       <CardTitle>Facebook</CardTitle>
                       <CardText>Lorem ipsum dolor sit amet.</CardText>
@@ -90,7 +90,7 @@ class ProductPage extends Component {
                   </Card>
                 </Col>
                 <Col md="3" lg="6" className="mb-1">
-                  <Card className="d-flex mb-3 example hoverable z-depth-5">
+                  <Card className="d-flex mb-3 example hoverable z-depth-5 animated zoomIn">
                     <CardBody>
                       <CardTitle>Google</CardTitle>
                       <CardText>Lorem ipsum dolor sit amet.</CardText>
@@ -113,7 +113,7 @@ class ProductPage extends Component {
               </Row>
             </section>
           </Col>
-          <Col lg="6" className="d-flex align-items-center">
+          <Col lg="6" className="d-flex align-items-center animated fadeInRight">
             <Row className="p-5">
               <h1>Where are you buying online leads from?</h1>
               <hr />
