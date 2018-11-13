@@ -24,11 +24,27 @@ class DataPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapse: false
+      collapse: false,
+      investmentZillow: "$100,000",
+      commissionZillow: "60%",
+      leadsZillow: "200",
+      closingsZillow: "5",
+      homeZillow: "$450,000",
+      investmentFacebook: "$100,000",
+      commissionFacebook: "60%",
+      leadsFacebook: "200",
+      closingsFacebook: "5",
+      homeFacebook: "$450,000"
     };
     this.onClick = this.onClick.bind(this);
     this.toggle = this.toggle.bind(this);
   }
+
+  onChange = event => {
+    this.setState({
+      [event.target.name]: event.target.value
+    });
+  };
 
   onClick() {
     this.setState({
@@ -149,31 +165,61 @@ class DataPage extends Component {
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Annual Investment" value="$100,000" />
+                          <Input
+                            label="Annual Investment"
+                            type="text"
+                            name="investmentZillow"
+                            value={this.state.investmentZillow}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Commission Split" value="60%" />
+                          <Input
+                            label="Commission Split"
+                            type="text"
+                            name="commissionZillow"
+                            value={this.state.commissionZillow}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Total Leads" value="200" />
+                          <Input
+                            label="Total Leads"
+                            type="text"
+                            name="leadsZillow"
+                            value={this.state.leadsZillow}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Total Closings" value="5" />
+                          <Input
+                            label="Total Closings"
+                            type="text"
+                            name="closingsZillow"
+                            value={this.state.closingsZillow}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Home Price" value="$450,000" />
+                          <Input
+                            label="Home Price"
+                            type="text"
+                            name="homeZillow"
+                            value={this.state.homeZillow}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
@@ -206,31 +252,61 @@ class DataPage extends Component {
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Annual Investment" value="$100,000" />
+                          <Input
+                            label="Annual Investment"
+                            type="text"
+                            name="investmentFacebook"
+                            value={this.state.investmentFacebook}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Commission Split" value="60%" />
+                          <Input
+                            label="Commission Split"
+                            type="text"
+                            name="commissionFacebook"
+                            value={this.state.commissionFacebook}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Total Leads" value="200" />
+                          <Input
+                            label="Total Leads"
+                            type="text"
+                            name="leadsFacebook"
+                            value={this.state.leadsFacebook}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Total Closings" value="5" />
+                          <Input
+                            label="Total Closings"
+                            type="text"
+                            name="closingsFacebook"
+                            value={this.state.closingsFacebook}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col md="6">
                         <div className="md-form mb-0">
-                          <Input label="Home Price" value="$450,000" />
+                          <Input
+                            label="Home Price"
+                            type="text"
+                            name="homeFacebook"
+                            value={this.state.homeFacebook}
+                            onChange={this.onChange}
+                          />
                         </div>
                       </Col>
                     </Row>
