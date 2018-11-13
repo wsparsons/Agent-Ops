@@ -1,19 +1,3 @@
-# mdbreact-admin-template-free
+# AGENT-OPS-FRONTEND
+[![Build Status](https://travis-ci.org/wsparsons/Agent-Ops.svg?branch=master)](https://travis-ci.org/wsparsons/Agent-Ops)
 
-> MDB - React Admin Dashboard Free
-
-## Build Setup
-
-``` bash
-# install dependencies
-yarn
-
-# serve with hot reload at localhost:8080
-yarn start
-
-# build for production with minification
-yarn build
-
-# build for production and view the bundle analyzer report
-yarn build --report
-```# Agent-Ops
