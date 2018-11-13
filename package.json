@@ -1,8 +1,8 @@
 {
-  "name": "mdb-react-admin-template",
+  "name": "agent-ops-dashboard",
   "version": "1.0.0",
-  "description": "MDB - React Admin Dashboard Free",
-  "author": "MDBootstrap <support@mdbootstrap.com>",
+  "description": "Agent Ops Dashboard",
+  "author": "Wendy Parsons",
   "license": "MIT",
   "dependencies": {
     "chart": "^0.1.2",
