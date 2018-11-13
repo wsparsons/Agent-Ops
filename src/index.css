@@ -222,3 +222,7 @@ img.img-fluid {
   width: 100%;
   height: auto;
 }
+
+#productPage {
+  height: 100%
+}

@@ -10,10 +10,11 @@ class SideNavigation extends Component {
         return (
             <div className="sidebar-fixed position-fixed">
                 <a className="logo-wrapper waves-effect">
-                    <img alt="MDB React Logo" className="img-fluid" src={logo}/>
+                    
+                    {/* <img alt="MDB React Logo" className="img-fluid" src={logo}/> */}
                 </a>
                 <ListGroup className="list-group-flush">
-                    <NavLink exact={true} to="/home/" activeClassName="activeClass">
+                    <NavLink exact={true} to="/home" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="pie-chart" className="mr-3"/>
                             Dashboard

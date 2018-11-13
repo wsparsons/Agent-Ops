@@ -19,6 +19,8 @@ import {
 } from "mdbreact";
 import facebook from "../../assets/facebook.png";
 import zillow from "../../assets/zillow.jpg";
+import google from '../../assets/google.png';
+import realtor from '../../assets/realtor.jpg'
 
 class DataPage extends Component {
   constructor(props) {
@@ -244,6 +246,180 @@ class DataPage extends Component {
                       </Col>
                       <Col md="4">
                         <p className="blue-text">Facebook</p>
+                      </Col>
+                      <Col md="4">
+                        <p className="blue-text">1h ago</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Annual Investment"
+                            type="text"
+                            name="investmentFacebook"
+                            value={this.state.investmentFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Commission Split"
+                            type="text"
+                            name="commissionFacebook"
+                            value={this.state.commissionFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Total Leads"
+                            type="text"
+                            name="leadsFacebook"
+                            value={this.state.leadsFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Total Closings"
+                            type="text"
+                            name="closingsFacebook"
+                            value={this.state.closingsFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Home Price"
+                            type="text"
+                            name="homeFacebook"
+                            value={this.state.homeFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col className="d-flex justify-content-center">
+                        <a href="/home">
+                          <Fa icon="plus-circle blue-text" size="2x" />
+                        </a>
+                      </Col>
+                    </Row>
+                  </CardBody>
+                </Col>
+              </Row>
+            </Card>
+            <Card className="mt-4 animated zoomIn">
+              <Row>
+                <Col>
+                  <CardBody className="form">
+                    <Row className="d-flex align-items-baseline">
+                      <Col md="2">
+                        <img className="avatar" alt="avatar" src={google} />
+                      </Col>
+                      <Col md="4">
+                        <p className="blue-text">Google</p>
+                      </Col>
+                      <Col md="4">
+                        <p className="blue-text">1h ago</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Annual Investment"
+                            type="text"
+                            name="investmentFacebook"
+                            value={this.state.investmentFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Commission Split"
+                            type="text"
+                            name="commissionFacebook"
+                            value={this.state.commissionFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Total Leads"
+                            type="text"
+                            name="leadsFacebook"
+                            value={this.state.leadsFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Total Closings"
+                            type="text"
+                            name="closingsFacebook"
+                            value={this.state.closingsFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md="6">
+                        <div className="md-form mb-0">
+                          <Input
+                            label="Home Price"
+                            type="text"
+                            name="homeFacebook"
+                            value={this.state.homeFacebook}
+                            onChange={this.onChange}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col className="d-flex justify-content-center">
+                        <a href="/home">
+                          <Fa icon="plus-circle blue-text" size="2x" />
+                        </a>
+                      </Col>
+                    </Row>
+                  </CardBody>
+                </Col>
+              </Row>
+            </Card>
+            <Card className="mt-4 animated zoomIn">
+              <Row>
+                <Col>
+                  <CardBody className="form">
+                    <Row className="d-flex align-items-baseline">
+                      <Col md="2">
+                        <img className="avatar" alt="avatar" src={realtor} />
+                      </Col>
+                      <Col md="4">
+                        <p className="blue-text">Realtor</p>
                       </Col>
                       <Col md="4">
                         <p className="blue-text">1h ago</p>

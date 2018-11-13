@@ -19,7 +19,7 @@ import google from "../../assets/google.png";
 class ProductPage extends Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment id="productPage">
         <Row className="justify-content-center p-5">
           <Col lg="6">
             <section>

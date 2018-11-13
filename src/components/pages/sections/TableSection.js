@@ -4,7 +4,7 @@ import { Card, CardBody, Table, TableBody, TableHead, Row, Col } from 'mdbreact'
 const TableSection = () => {
   return (
     <Row className="mb-4">
-          <Col md="6">
+          <Col >
               <Card>
                   <CardBody>
                     <Table hover>
@@ -40,7 +40,7 @@ const TableSection = () => {
                   </CardBody>
               </Card>
           </Col>
-          <Col md="6" className="mb-4">
+          {/* <Col md="6" className="mb-4">
               <Card>
                   <CardBody>
                     <Table hover>
@@ -75,7 +75,7 @@ const TableSection = () => {
                     </Table>
                   </CardBody>
               </Card>
-          </Col>
+          </Col> */}
       </Row>
   )
 }
