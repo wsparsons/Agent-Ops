@@ -8,6 +8,9 @@ import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 
+console.log('HELLOOOOOOOO');
+
+
 ReactDOM.render(
   <Router>
     <App />

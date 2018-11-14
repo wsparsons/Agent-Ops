@@ -7,17 +7,20 @@ import "./index.css";
 import ProductPage from '../src/components/pages/ProductPage'
 import DataPage from '../src/components/pages/DataPage'
 import HomePage from '../src/components/HomePage'
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 
 class App extends Component {
   render() {
+    console.log('hello222222');
+    
     return (
       <div className="flexible-content">
         <Switch>
-          <Route path="/product" component={ProductPage}></Route>
-          <Route path="/data" component={DataPage}/>
+          <Route exact path="/" component={ProductPage}></Route>
+          <Route exact path="/data" component={DataPage}/>
           <Route path="/home" component={HomePage}/>
+          <Redirect to="/" />
         </Switch>
         {/* <TopNavigation />
         <SideNavigation />

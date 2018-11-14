@@ -101,7 +101,7 @@ class DataPage extends Component {
                   </DropdownToggle>
                   <DropdownMenu>
                     <DropdownItem href="/data">Data</DropdownItem>
-                    <DropdownItem href="/home/dashboard">
+                    <DropdownItem href="/home">
                       Dashboard
                     </DropdownItem>
                     <DropdownItem href="/product">Sign Out</DropdownItem>

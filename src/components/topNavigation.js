@@ -127,7 +127,7 @@ class TopNavigation extends Component {
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem href="/data">Data</DropdownItem>
-                  <DropdownItem href="/home/dashboard">Dashboard</DropdownItem>
+                  <DropdownItem href="/home">Dashboard</DropdownItem>
                   <DropdownItem href="/product">Sign Out</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
